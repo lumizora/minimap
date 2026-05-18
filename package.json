@@ -1,0 +1,19 @@
+{
+  "name": "core",
+  "version": "0.1.0",
+  "private": "true",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "typeCheck": "tsc --noEmit",
+    "preview": "vite preview"
+  },
+  "packageManager": "pnpm@10.33.0",
+  "devDependencies": {
+    "@types/node": "^25.8.0",
+    "@webgpu/types": "^0.1.70",
+    "typescript": "^6.0.3",
+    "vite": "^8.0.13"
+  },
+  "license": "MIT"
+}
